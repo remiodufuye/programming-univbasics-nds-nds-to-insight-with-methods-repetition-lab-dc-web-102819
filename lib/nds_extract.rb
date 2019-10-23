@@ -49,7 +49,7 @@ def total_gross(source)
   # return the total
   
   
-  director_earning_hash = directors_totals(source)
+  director_earning_total = directors_totals(source)
   director_names = list_of_directors(source)
   i = 0
   total = 0
