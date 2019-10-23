@@ -30,8 +30,8 @@ def list_of_directors(source)
   k = 0
   
   while k < source.length do
-    stooges = source[k][:name]
-    new_array << stooges
+    staged_movies = source[k][:name]
+    new_array << staged_movies
     k += 1
 end
 new_array
